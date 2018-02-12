@@ -1,0 +1,703 @@
+#dashboard-widgets h2.hndle.ui-sortable-handle {
+    font-size: 28px;
+    text-transform: capitalize;
+    color: #000;
+    padding: 20px 12px;
+    cursor: inherit !important;
+}
+
+#dashboard-widgets #woocommerce_dashboard_status .wc_status_list li a::before {
+    font-size: 40px;
+}
+
+#woocommerce_dashboard_status .wc_status_list li a strong {
+    font-size: 20px;
+}
+
+#woocommerce_dashboard_status .wc_status_list li a {
+    font-size: 16px !important;
+}
+
+.wp-person a:focus .gravatar,
+a:focus,
+a:focus .media-icon img {
+    box-shadow: none;
+}
+
+#wpbody-content #dashboard-widgets #postbox-container-1 {
+    width: 100% !important;
+}
+
+#woocommerce_dashboard_status .wc_status_list li a .wc_sparkline {
+    width: 22em !important;
+    height: 3em !important;
+}
+
+table {
+    margin: 30px 0 0 !important;
+}
+
+thead {
+    background: #42b642;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f9f9f9 !important;
+}
+
+table thead tr:nth-child(odd),
+table tfoot tr:nth-child(odd) {
+    background: #42b642 !important;
+}
+
+thead th a,
+thead th {
+    color: #fff !important;
+    font-size: 18px !important;
+}
+
+table thead th {
+
+    border-bottom: 0 !important;
+}
+
+/*
+
+.toplevel_page_catering .dataTables_wrapper table.display {
+    width: 990px !important;
+}
+*/
+
+#example thead th {
+    /*  padding: 15px 10px !important; */
+    font-weight: normal !important;
+}
+
+table tr td {
+    border-left: 1px solid #ccc;
+    padding-left: 10px !important;
+}
+
+table tbody td:first-child {
+    border: 0 none;
+}
+
+.sorting-indicator:before {
+    color: #fff !important;
+}
+
+#adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+.folded #adminmenu li.current.menu-top,
+#adminmenu a:hover,
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus,
+#collapse-button:focus,
+#collapse-button:hover,
+.tablenav .tablenav-pages a:focus,
+.tablenav .tablenav-pages a:hover,
+.wrap .add-new-h2:hover,
+.wrap .page-title-action:hover,
+tfoot,
+tfoot th,
+tfoot th a,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:active,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: #42b642 !important;
+    color: #fff !important;
+    border-color: #42b642 !important;
+}
+
+.customAdmin {
+    width: 98% !important;
+    padding: 25px 0 0;
+}
+
+
+.wp-core-ui .button-primary {
+    background: #42b642 !important;
+    border-color: #42b642 !important;
+    text-shadow: 0 -1px 1px #42b642, 1px 0 1px #42b642, 0 1px 1px #42b642, -1px 0 1px #42b642;
+    box-shadow: 0 1px 0 #42b642 !important;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.wp-core-ui .button-primary:focus,
+.wp-core-ui .button-primary:hover {
+    background: #e70b22 !important;
+    border-color: #e70b22 !important;
+    text-shadow: 0 -1px 1px #e70b22, 1px 0 1px #e70b22, 0 1px 1px #e70b22, -1px 0 1px #e70b22;
+    box-shadow: 0 1px 0 #e70b22 !important;
+}
+
+#output_preview_csv table tr:first-child td {
+    white-space: nowrap;
+}
+
+#output_preview_csv table tr td {
+    padding: 10px 20px;
+}
+
+#adminmenu .awaiting-mod,
+#adminmenu .update-plugins {
+    background: #42b642 !important;
+}
+
+.catering-messages_page_catering-reports .exporting,
+.catering-messages_page_catering-reports .exportError {
+    background: #3bbc3f;
+    color: #ffffff;
+    padding: 6px 10px 10px;
+    position: absolute;
+    right: 27px;
+    top: 83px;
+    text-transform: capitalize;
+}
+
+.catering-messages_page_catering-reports .exporting:hover,
+.catering-messages_page_catering-reports .exportError:hover {
+    text-decoration: none;
+}
+
+form#addCateringMessage {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px #ddd;
+    max-width: 600px;
+    padding: 50px;
+    width: 100%;
+}
+
+#addCateringMessage input,
+#addCateringMessage textarea {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+#addCateringMessage button.btn-primary {
+    background: #3bbc3f;
+    border-color: #3bbc3f;
+    border-radius: 0;
+}
+
+#addCateringMessage label.error {
+    display: none !important;
+}
+
+#addCateringMessage input.error,
+#addCateringMessage textarea.error {
+    border-color: #ff0000;
+}
+
+#addCateringMessage button.btn-primary:hover {
+    background: #ffffff;
+    color: #3bbc3f;
+}
+
+.catering-messages_page_catering-reports .custom {
+    padding: 9px 10px !important;
+    vertical-align: middle !important;
+}
+
+.catering-messages_page_catering-reports .custom input[type="text"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: none;
+    color: #777;
+    padding: 0;
+    text-align: center;
+}
+
+.catering-messages_page_catering-reports .custom button {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.catering-messages_page_catering-reports .custom form {
+    display: inline-block;
+}
+
+.catering-messages_page_catering-reports .exporting:hover {
+    outline: none;
+}
+
+tfoot td {
+    border-top: 1px solid #42b642 !important;
+}
+
+a.viewCateringMessage {
+    background: #48ae45;
+    display: inline-block;
+    color: #ffffff;
+    padding: 8px;
+    text-align: center;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+a.btn.editCateringMessage {
+    padding: 8px;
+    background: #48ae45;
+    border-color: #48ae45;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+a.btn.deleteCateringMessage {
+    padding: 8px;
+    background: #48ae45;
+    border-color: #48ae45;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.toplevel_page_catering .addCateringOrder {
+    background: #48ae45 !important;
+    color: #ffffff !important;
+    padding: 10px !important;
+    position: absolute !important;
+    right: 24px !important;
+    top: 23px !important;
+}
+
+.toplevel_page_catering .addCateringOrder:hover {
+    text-decoration: none !important;
+}
+
+a.btn.editCateringMessage:focus,
+a.btn.editCateringMessage:hover,
+a.viewCateringMessage:focus,
+a.viewCateringMessage:hover {
+    border-color: #48ae45;
+    box-shadow: none!important;
+}
+
+a.viewCateringMessage:hover,
+a.viewCateringMessage:focus,
+a.button.tips.view:hover,
+a.button.tips.view:focus {
+    background: #0b9444;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.button.tips.view {
+    background: #48ae45;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+    width: 24px;
+    vertical-align: middle;
+    line-height: 18px;
+    border: 0 none;
+    box-shadow: none;
+}
+
+.dataTables_wrapper .dataTables_length {
+    float: none !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.customAdmin div.dt-buttons {
+    margin: 0 0 0 15px;
+    float: none !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.customAdmin div.dt-buttons a {
+    background: #48ae45;
+    color: #fff;
+    border: 1px solid #48ae45 !important;
+}
+
+.customAdmin div.dt-buttons a:hover,
+.customAdmin div.dt-buttons a :focus {
+    background: #48ae45 !important;
+    color: #fff;
+    border-color: #48ae45 !important
+}
+
+.customAdmin h2,
+.wrap h1.wp-heading-inline {
+    margin: 0 0 25px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+form#your-profile,
+form#createuser {
+    width: 90%;
+    max-width: 775px;
+    background: #fff;
+    padding: 30px;
+    margin: 10px 0 0 0;
+    box-shadow: 0 5px 9px #ddd;
+}
+
+#your-profile table tr:nth-child(odd),
+#createuser table tr:nth-child(odd) {
+    background: #fff !important;
+}
+
+#your-profile h2:empty {
+    display: none;
+}
+
+#your-profile h2,
+#createuser h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    color: #000;
+    font-size: 20px;
+
+}
+
+#createuser tbody tr th,
+form#your-profile tbody tr th {
+    border-top: 0 none !important;
+}
+
+#createuser table tr td,
+form#your-profile table tr td {
+    border-left: 0 none !important;
+}
+
+#the-list td {
+    border-top: 1px solid #ddd;
+}
+
+#the-list tr:first-child td {
+    border-top: 0 none !important;
+}
+
+tbody tr th {
+    border-top: 1px solid #ddd !important;
+}
+
+.post-type-shop_order #order_data .order_data_column_container .order_data_column:last-child {
+    display: none !important;
+}
+
+.post-type-shop_order #order_data .order_data_column_container .order_data_column {
+    width: 48%;
+}
+
+div#output_preview_csv table tr:first-child {
+    background: #48ae45 !important;
+}
+
+div#output_preview_csv table tr:first-child td {
+    color: #fff !important;
+    background: none !important;
+    border: 0 none !important;
+    box-shadow: none !important;
+}
+
+
+#order_data .order_data_column ._billing_building_field,
+#order_data .order_data_column ._billing_floor_field,
+#order_data .order_data_column ._billing_house_field {
+    float: right !important;
+    clear: right !important;
+}
+
+.update-nag {
+    display: none !important;
+}
+
+#wp-admin-bar-wp-logo {
+    display: none;
+}
+
+#cater-msg {
+    cursor: initial;
+    font-size: 14px;
+}
+
+.modal-footer .btn.btn-secondary {
+    cursor: pointer;
+}
+
+li#wp-admin-bar-site-name {
+    background: url(http://clientstagingdev.com/fruitdose//wp-content/uploads/2017/11/wp_logo.png) !important;
+    padding: 0px 0 !important;
+    overflow: hidden;
+    width: 100px;
+    height: 45px !important;
+    margin: 5px 0 0 12px !important;
+    display: block;
+}
+
+li#wp-admin-bar-site-name a {
+    text-indent: 9999px;
+    height: 45px !important;
+    background: none !important;
+}
+
+li#wp-admin-bar-site-name a:hover {
+    background: none !important;
+}
+
+#adminmenu {
+    margin: 35px 0 0 !important;
+}
+
+#adminmenu li.wp-menu-separator {
+    display: none !important;
+}
+
+table.acf-input-table th {
+    color: #000 !important;
+}
+
+.column-price,
+.is_in_stock,
+#posts-filter {
+    position: relative;
+}
+
+.column-price .save_price,
+.is_in_stock .save_stock {
+    position: absolute;
+    right: 6px;
+    top: 8px;
+}
+
+.column-price input[type="text"],
+.is_in_stock input[type="text"] {
+    width: 99%;
+}
+
+.column-price .saveDiv,
+.is_in_stock .saveStockDiv {
+    margin-top: 10px;
+}
+
+.column-price .edit_price,
+.is_in_stock .edit_stock {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.post-type-product .column-publisher input {
+    margin-left: 12px;
+}
+
+.amountAssigned {
+    position: absolute !important;
+    right: 0 !important;
+    top: 59px !important;
+}
+
+.all-orders_page_replace-orders .customAdmin p,
+.all-orders_page_new-orders .customAdmin p {
+    position: absolute;
+    right: 26px;
+    top: 120px;
+}
+
+.amountAssigned strong {
+    font-weight: 700;
+}
+
+/*
+.post-type-product #posts-filter .search-box {
+    left: 35%;
+    margin: 0.8em 0;
+    position: absolute;
+}
+*/
+
+.tablenav input[type="submit"] {
+    line-height: 29px!important;
+}
+
+/*----- Catering Message -----*/
+
+.customAdmin .stats_range ul {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-top: 1px solid #ccc;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.customAdmin .stats_range {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 0 !important;
+}
+
+.customAdmin .stats_range li {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.customAdmin .stats_range li.active {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 4px 0 0 #fff;
+}
+
+.customAdmin .stats_range li.active a {
+    color: #777777;
+}
+
+.customAdmin .stats_range li a {
+    border-right: 1px solid #dfdfdf;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/*----- Woocommerce Pages -----*/
+
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items thead th {
+    background: #42b642 !important;
+}
+
+/*
+.all-orders_page_wc-reports .chart-sidebar li:nth-child(6),
+.all-orders_page_wc-reports .chart-sidebar li:last-child {
+    display: none !important;
+}
+*/
+
+.toplevel_page_catering .mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #42b642!important;
+}
+
+.toplevel_page_catering .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    bottom: -32px !important;
+}
+
+.toplevel_page_catering .mCS-minimal.mCSB_scrollTools .mCSB_draggerRail,
+.toplevel_page_catering .mCS-minimal-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #e7e7e7 !important;
+}
+
+/*----- Media Queries -----*/
+
+@media only screen and (max-width:1370px) {
+    thead th a,
+    thead th {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.check-column),
+    #createuser table tr td,
+    form#your-profile table tr td {
+        display: table-cell !important;
+    }
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+    .wp-list-table.fixed {
+        table-layout: inherit;
+    }
+    .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.column-primary)::before {
+        display: none !important;
+    }
+    .wp-list-table th.column-primary ~ th,
+    .wp-list-table tr:not(.inline-edit-row):not(.no-items) td.column-primary ~ td:not(.check-column) {
+        display: table-cell !important;
+    }
+
+    /*----- Product Page -----*/
+    .post-type-product #sku,
+    .post-type-product .sku,
+    .post-type-product #product_tag,
+    .post-type-product .product_tag,
+    .post-type-product #featured,
+    .post-type-product .featured,
+    .post-type-product #product_type,
+    .post-type-product .product_type {
+        display: none !important;
+    }
+
+    .wp-list-table #sku,
+    .wp-list-table #the-list .sku {
+        display: none !important;
+    }
+}
+
+@media (max-width:767px) {
+    #woocommerce_dashboard_status .wc_status_list li {
+        width: 100% !important;
+    }
+    #woocommerce_dashboard_status .wc_status_list li a .wc_sparkline {
+        width: 4em !important;
+        height: 2em !important;
+    }
+    #dashboard-widgets #woocommerce_dashboard_status .wc_status_list li a::before {
+        font-size: 20px;
+    }
+    #woocommerce_dashboard_status .wc_status_list li a strong {
+        font-size: 15px !important;
+    }
+    #woocommerce_dashboard_status .wc_status_list li a {
+        font-size: 13px !important;
+    }
+    #createuser table tr td,
+    form#your-profile table tr td {
+        display: block !important;
+        padding-left: 0 !important;
+    }
+    #adminmenu div.wp-menu-name,
+    div.wp-menu-image::before {
+        padding: 3px 0 !important;
+    }
+}
+
+.border-error {
+    border: 1px solid red !important;
+}
+
+.search-box select {
+    display: none;
+    height: 32px;
+}
+
+.search-box input[type=search],
+.search-box input[type=submit] {
+    height: 32px;
+}
+
+.post-type-product .search-box select {
+    float: left;
+    margin: 0 4px 0 0;
+    display: block;
+}
+
+.stockClass {
+    color: #555 !important;
+}

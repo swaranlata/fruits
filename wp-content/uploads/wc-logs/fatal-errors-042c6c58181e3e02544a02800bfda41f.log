@@ -1,0 +1,2506 @@
+2017-11-08T07:42:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-11-10T11:37:04+05:30 CRITICAL Uncaught Error: Call to undefined function eregi() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:498
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\signup.php(11): CheckValidEmail('tushar.khanna12...')
+#1 {main}
+  thrown
+
+2017-11-10T11:37:49+05:30 CRITICAL Uncaught Error: Call to undefined function eregi() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:498
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\signup.php(11): CheckValidEmail('tushar.khanna12...')
+#1 {main}
+  thrown
+
+2017-11-10T11:39:59+05:30 CRITICAL Uncaught Error: Call to undefined function eregi() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:498
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\signup.php(11): CheckValidEmail('tushar.khanna12...')
+#1 {main}
+  thrown
+
+2017-11-10T11:49:36+05:30 CRITICAL Uncaught Error: Call to undefined function comvert_array() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:509
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\signup.php(39): getUserDetails(3)
+#1 {main}
+  thrown
+
+2017-11-10T12:34:02+05:30 CRITICAL Uncaught Error: Call to undefined function resetPassword() in C:\xampp\htdocs\fruits\api\resetPassword.php:16
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-10T13:34:50+05:30 CRITICAL Uncaught Error: Call to undefined function get_lang_message() in C:\xampp\htdocs\fruits\api\addBillingInformation.php:60
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-11T10:07:12+05:30 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-11-11T11:54:46+05:30 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-11-11T13:27:43+05:30 CRITICAL Uncaught Error: Call to undefined function get_lang_message() in C:\xampp\htdocs\fruits\api\addCatering.php:41
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-11T14:53:30+05:30 CRITICAL Uncaught Error: Call to undefined function wp_query() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:762
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getFruitList.php(12): getProducts('0')
+#1 {main}
+  thrown
+
+2017-11-11T14:53:46+05:30 CRITICAL Uncaught Error: Call to undefined function wp_query() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:763
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getFruitList.php(12): getProducts('0')
+#1 {main}
+  thrown
+
+2017-11-11T14:53:48+05:30 CRITICAL Uncaught Error: Call to undefined function wp_query() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:763
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getFruitList.php(12): getProducts('0')
+#1 {main}
+  thrown
+
+2017-11-11T15:18:39+05:30 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:768
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getFruitList.php(12): getProducts('0')
+#1 {main}
+  thrown
+
+2017-11-11T15:20:01+05:30 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:768
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getFruitList.php(12): getProducts('0')
+#1 {main}
+  thrown
+
+2017-11-11T16:15:42+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::get_the_title() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:715
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:27:08+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::post_content() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:718
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:27:18+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::get_content() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:718
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:30:47+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::get_the_content() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:719
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:31:32+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::get_the_content() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:719
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:31:34+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::get_the_content() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:719
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:31:38+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::get_the_content() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:719
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:32:11+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::get_the_content() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:719
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:33:54+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::get_the_content() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:720
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:36:50+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::get_the_content() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:720
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:37:52+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::the_content() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:719
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:40:51+05:30 CRITICAL Uncaught Error: Call to undefined method WP_Post::the_content() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:716
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:52:20+05:30 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:719
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:52:24+05:30 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:719
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T16:53:53+05:30 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:715
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-11T17:09:33+05:30 CRITICAL Uncaught Error: Call to undefined method WC_Product::get_the_description() in C:\xampp\htdocs\fruits\wp-content\themes\fruits\functions.php:718
+Stack trace:
+#0 C:\xampp\htdocs\fruits\api\getCartProducts.php(8): getCartProducts('3')
+#1 {main}
+  thrown
+
+2017-11-13T12:12:54+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getNotifications.php:15
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-14T15:21:52+05:30 CRITICAL Uncaught Error: Call to a member function get_data() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:940
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAllOrders.php(13): getAllOrders('1', 'app')
+#1 {main}
+  thrown
+
+2017-11-14T15:21:55+05:30 CRITICAL Uncaught Error: Call to a member function get_data() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:940
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAllOrders.php(13): getAllOrders('1', 'app')
+#1 {main}
+  thrown
+
+2017-11-14T15:24:23+05:30 CRITICAL Uncaught Error: Call to a member function get_data() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:940
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAllOrders.php(13): getAllOrders('1', 'app')
+#1 {main}
+  thrown
+
+2017-11-14T15:24:27+05:30 CRITICAL Uncaught Error: Call to a member function get_data() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:940
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAllOrders.php(13): getAllOrders('1', 'app')
+#1 {main}
+  thrown
+
+2017-11-14T15:24:57+05:30 CRITICAL Uncaught Error: Call to a member function get_data() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:940
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAllOrders.php(13): getAllOrders('1', 'app')
+#1 {main}
+  thrown
+
+2017-11-14T15:24:59+05:30 CRITICAL Uncaught Error: Call to a member function get_data() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:940
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAllOrders.php(13): getAllOrders('1', 'app')
+#1 {main}
+  thrown
+
+2017-11-14T15:25:23+05:30 CRITICAL Uncaught Error: Call to a member function get_data() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:940
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAllOrders.php(13): getAllOrders('1', 'app')
+#1 {main}
+  thrown
+
+2017-11-14T15:25:26+05:30 CRITICAL Uncaught Error: Call to a member function get_data() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:940
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAllOrders.php(13): getAllOrders('1', 'app')
+#1 {main}
+  thrown
+
+2017-11-14T15:25:28+05:30 CRITICAL Uncaught Error: Call to a member function get_data() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:940
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAllOrders.php(13): getAllOrders('1', 'app')
+#1 {main}
+  thrown
+
+2017-11-14T15:40:12+05:30 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:948
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAllOrders.php(13): getAllOrders('1', 'app')
+#1 {main}
+  thrown
+
+2017-11-14T15:40:14+05:30 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:948
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAllOrders.php(13): getAllOrders('1', 'app')
+#1 {main}
+  thrown
+
+2017-11-14T10:10:26+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getAllOrders.php:12
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-14T10:49:39+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getAllOrders.php:12
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-15T08:06:57+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/addToCart.php:31
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-15T09:39:37+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/confirmOrder.php:31
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-15T09:41:29+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/confirmOrder.php:31
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-15T10:15:22+00:00 CRITICAL Uncaught Error: Call to undefined function getProductFacts() in /var/www/html/fruitdose/api/getFacts.php:19
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-16T04:46:03+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getAllOrders.php:12
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-16T04:46:42+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getAllOrders.php:12
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-16T04:46:42+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getFruitList.php:20
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-16T04:54:56+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getAllOrders.php:12
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-16T05:44:37+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getAllOrders.php:12
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-16T12:24:29+05:30 CRITICAL Uncaught Error: Call to a member function query() on null in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1109
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-11-16T12:25:00+05:30 CRITICAL Uncaught Error: Call to a member function query() on null in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1109
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-11-16T12:30:52+05:30 CRITICAL Uncaught Error: Call to a member function query() on null in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1109
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-11-16T12:33:00+05:30 CRITICAL Uncaught Error: Call to a member function query() on null in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1109
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-11-16T12:35:25+05:30 CRITICAL Uncaught Error: Call to a member function query() on null in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1109
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-11-16T12:36:00+05:30 CRITICAL Uncaught Error: Call to a member function query() on null in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1109
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-11-16T12:40:48+05:30 CRITICAL Uncaught Error: Call to a member function query() on null in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1109
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-11-21T18:28:39+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:28:44+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:28:47+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:28:49+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:28:54+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:28:56+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:28:59+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:29:00+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:29:28+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:29:32+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:29:48+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:29:52+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:30:01+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:30:15+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:30:25+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:31:00+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:34:52+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T18:35:58+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:36:06+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:36:25+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:37:05+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:38:24+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:39:06+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:40:27+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:41:08+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:42:27+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:43:10+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:43:26+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:43:26+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:44:08+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:44:27+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:45:18+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:45:18+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:45:19+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:46:10+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:46:26+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:46:28+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:46:28+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:46:50+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:46:56+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:47:16+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:47:29+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T18:47:40+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate====/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html
+
+2017-11-21T19:14:30+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T19:14:35+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-21T19:14:57+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-22T12:51:28+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-22T12:57:03+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-22T12:57:21+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-11-22T18:06:48+05:30 CRITICAL Uncaught Error: Function name must be a string in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:712
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAreas.php(12): getAllAreas()
+#1 {main}
+  thrown
+
+2017-11-22T18:06:52+05:30 CRITICAL Uncaught Error: Function name must be a string in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:712
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAreas.php(12): getAllAreas()
+#1 {main}
+  thrown
+
+2017-11-22T18:07:32+05:30 CRITICAL Uncaught Error: Function name must be a string in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:712
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAreas.php(12): getAllAreas()
+#1 {main}
+  thrown
+
+2017-11-22T18:07:35+05:30 CRITICAL Uncaught Error: Function name must be a string in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:712
+Stack trace:
+#0 /var/www/html/fruitdose/api/getAreas.php(12): getAllAreas()
+#1 {main}
+  thrown
+
+2017-11-24T10:03:00+00:00 CRITICAL Uncaught Error: Call to undefined function twentysixteen_the_custom_logo() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:32
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2017-11-24T11:24:09+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/confirmOrder.php:31
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-24T11:58:23+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getBillingAddresses.php:15
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-24T11:58:23+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getBillingAddresses.php:15
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-25T12:00:19+05:30 CRITICAL Uncaught Error: Call to undefined function get_user_by_id() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/newOrders.php:32
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1535): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): newOrders('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('all-orders_page...')
+#5 {main}
+  thrown
+
+2017-11-25T12:00:22+05:30 CRITICAL Uncaught Error: Call to undefined function get_user_by_id() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/newOrders.php:32
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1535): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): newOrders('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('all-orders_page...')
+#5 {main}
+  thrown
+
+2017-11-25T12:01:04+05:30 CRITICAL Uncaught Error: Call to undefined function get_user_by_id() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/newOrders.php:32
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1535): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): newOrders('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('all-orders_page...')
+#5 {main}
+  thrown
+
+2017-11-25T12:01:07+05:30 CRITICAL Uncaught Error: Call to undefined function get_user_by_id() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/newOrders.php:32
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1535): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): newOrders('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('all-orders_page...')
+#5 {main}
+  thrown
+
+2017-11-25T12:02:31+05:30 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/newOrders.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1535): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): newOrders('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('all-orders_page...')
+#5 {main}
+  thrown
+
+2017-11-25T12:03:14+05:30 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/newOrders.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1535): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): newOrders('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('all-orders_page...')
+#5 {main}
+  thrown
+
+2017-11-25T09:39:26+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getFruitList.php:23
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-27T17:35:32+05:30 CRITICAL Uncaught Error: Call to undefined function admin_ajax_url() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1821
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): foot_monger('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-footer.php(30): do_action('in_admin_footer')
+#4 /var/www/html/fruitdose/wp-admin/post.php(292): include('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-11-27T17:35:33+05:30 CRITICAL Uncaught Error: Call to undefined function admin_ajax_url() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1821
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): foot_monger('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-footer.php(30): do_action('in_admin_footer')
+#4 /var/www/html/fruitdose/wp-admin/post.php(292): include('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-11-27T17:35:37+05:30 CRITICAL Uncaught Error: Call to undefined function admin_ajax_url() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1821
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): foot_monger('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-footer.php(30): do_action('in_admin_footer')
+#4 /var/www/html/fruitdose/wp-admin/post.php(292): include('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-11-27T12:12:52+00:00 CRITICAL Uncaught Error: Call to undefined function getSliderImages() in /var/www/html/fruitdose/api/getSliderImages.php:12
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-27T12:13:00+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getFruitList.php:23
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-27T12:13:17+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getCartProducts.php:15
+Stack trace:
+#0 {main}
+  thrown
+
+2017-11-30T05:16:16+00:00 CRITICAL Uncaught Error: Call to undefined function twentysixteen_the_custom_logo() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:32
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/404.php(10): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2017-12-01T10:09:34+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-12-01T10:09:51+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-12-01T10:09:52+05:30 CRITICAL Uncaught Error: Call to a member function register_field_type() on null in /var/www/html/fruitdose/wp-content/plugins/acf-qtranslate/src/acf_5/acf.php:36
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf_qtranslate_acf_5->include_fields(5)
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(222): do_action('acf/include_fie...', 5)
+#4 /var/www/html/fruitdose/wp-content/plugins/advanced-custom-fields-pro/acf.php(243): acf->complete()
+#5 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): acf->wp_init('')
+#6 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/fruitdose/wp-settings.php(448): do_action('init')
+#9 /var/www/html/fru
+
+2017-12-09T10:59:59+05:30 CRITICAL Uncaught Error: Call to a member function add_product() on null in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1307
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-12-09T11:00:02+05:30 CRITICAL Uncaught Error: Call to a member function add_product() on null in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1307
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-12-09T11:02:30+05:30 CRITICAL Uncaught Error: Call to a member function add_product() on null in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1312
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-12-09T11:02:33+05:30 CRITICAL Uncaught Error: Call to a member function add_product() on null in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1312
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-12-09T11:37:24+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2035
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): foot_monger('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-footer.php(30): do_action('in_admin_footer')
+#4 /var/www/html/fruitdose/wp-admin/post.php(292): include('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-12-09T11:37:28+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2035
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): foot_monger('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-footer.php(30): do_action('in_admin_footer')
+#4 /var/www/html/fruitdose/wp-admin/post.php(292): include('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-12-09T11:37:32+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2035
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): foot_monger('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-footer.php(30): do_action('in_admin_footer')
+#4 /var/www/html/fruitdose/wp-admin/post.php(292): include('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-12-09T11:37:56+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2035
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): foot_monger('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-footer.php(30): do_action('in_admin_footer')
+#4 /var/www/html/fruitdose/wp-admin/post.php(292): include('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-12-09T11:38:04+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2035
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): foot_monger('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-footer.php(30): do_action('in_admin_footer')
+#4 /var/www/html/fruitdose/wp-admin/post.php(292): include('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-12-09T11:38:40+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2035
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): foot_monger('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-footer.php(30): do_action('in_admin_footer')
+#4 /var/www/html/fruitdose/wp-admin/post.php(292): include('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-12-09T11:38:49+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2035
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): foot_monger('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-footer.php(30): do_action('in_admin_footer')
+#4 /var/www/html/fruitdose/wp-admin/post.php(292): include('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-12-09T11:39:14+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2035
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): foot_monger('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-footer.php(30): do_action('in_admin_footer')
+#4 /var/www/html/fruitdose/wp-admin/post.php(292): include('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-12-09T11:48:27+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2032
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): get_pro_name('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_get_pro...')
+#4 {main}
+  thrown
+
+2017-12-09T11:48:27+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2032
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): get_pro_name('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_get_pro...')
+#4 {main}
+  thrown
+
+2017-12-09T11:48:44+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2032
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): get_pro_name('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_get_pro...')
+#4 {main}
+  thrown
+
+2017-12-09T11:48:44+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2032
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): get_pro_name('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_get_pro...')
+#4 {main}
+  thrown
+
+2017-12-09T11:50:03+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2032
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): get_pro_name('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_get_pro...')
+#4 {main}
+  thrown
+
+2017-12-09T11:50:03+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2032
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): get_pro_name('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_get_pro...')
+#4 {main}
+  thrown
+
+2017-12-09T11:53:32+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2032
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): get_pro_name('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_get_pro...')
+#4 {main}
+  thrown
+
+2017-12-09T11:53:32+05:30 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:2032
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): get_pro_name('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_get_pro...')
+#4 {main}
+  thrown
+
+2017-12-12T06:10:38+00:00 CRITICAL Uncaught Error: Call to undefined function twentysixteen_the_custom_logo() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:32
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/404.php(10): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2017-12-18T11:42:35+00:00 CRITICAL Uncaught Error: Call to undefined function get_repeater_field() in /var/www/html/fruitdose/api/index.php:3
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-18T11:42:40+00:00 CRITICAL Uncaught Error: Call to undefined function get_repeater_field() in /var/www/html/fruitdose/api/index.php:3
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-18T11:43:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_repeater_field() in /var/www/html/fruitdose/api/index.php:3
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-18T11:43:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_repeater_field() in /var/www/html/fruitdose/api/index.php:3
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-18T11:43:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_repeater_field() in /var/www/html/fruitdose/api/index.php:3
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-18T14:53:55+00:00 CRITICAL Uncaught Error: Call to undefined function strotime() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/cateringReports.php:28
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1782): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): cateringReports('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('catering-messag...')
+#5 {main}
+  thrown
+
+2017-12-18T14:54:03+00:00 CRITICAL Uncaught Error: Call to undefined function strotime() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/cateringReports.php:28
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1782): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): cateringReports('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('catering-messag...')
+#5 {main}
+  thrown
+
+2017-12-18T14:54:32+00:00 CRITICAL Uncaught Error: Call to undefined function strotime() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/cateringReports.php:28
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1782): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): cateringReports('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('catering-messag...')
+#5 {main}
+  thrown
+
+2017-12-18T14:54:35+00:00 CRITICAL Uncaught Error: Call to undefined function strotime() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/cateringReports.php:28
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1782): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): cateringReports('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('catering-messag...')
+#5 {main}
+  thrown
+
+2017-12-18T14:55:48+00:00 CRITICAL Uncaught Error: Call to undefined function strotime() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/cateringReports.php:28
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1782): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): cateringReports('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('catering-messag...')
+#5 {main}
+  thrown
+
+2017-12-18T14:55:51+00:00 CRITICAL Uncaught Error: Call to undefined function strotime() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/cateringReports.php:28
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1782): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): cateringReports('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('catering-messag...')
+#5 {main}
+  thrown
+
+2017-12-18T14:55:58+00:00 CRITICAL Uncaught Error: Call to undefined function strotime() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/cateringReports.php:28
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1782): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): cateringReports('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('catering-messag...')
+#5 {main}
+  thrown
+
+2017-12-18T14:56:02+00:00 CRITICAL Uncaught Error: Call to undefined function strotime() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/cateringReports.php:28
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1782): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): cateringReports('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('catering-messag...')
+#5 {main}
+  thrown
+
+2017-12-18T14:57:02+00:00 CRITICAL Uncaught Error: Call to undefined function strotime() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/cateringReports.php:29
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1782): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): cateringReports('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('catering-messag...')
+#5 {main}
+  thrown
+
+2017-12-18T14:57:05+00:00 CRITICAL Uncaught Error: Call to undefined function strotime() in /var/www/html/fruitdose/wp-content/themes/fruits/admin-templates/cateringReports.php:29
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/functions.php(1782): include()
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): cateringReports('')
+#2 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/fruitdose/wp-admin/admin.php(222): do_action('catering-messag...')
+#5 {main}
+  thrown
+
+2017-12-19T12:41:02+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1429
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-12-19T12:41:47+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1429
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-12-19T12:42:39+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1429
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-12-19T12:43:38+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1429
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-12-19T12:46:32+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1429
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-12-19T12:46:33+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1429
+Stack trace:
+#0 /var/www/html/fruitdose/api/confirmOrder.php(32): confirmOrder(Array, 'app')
+#1 {main}
+  thrown
+
+2017-12-19T13:01:38+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/api/index.php:7
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-19T13:02:10+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/api/index.php:7
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-19T13:02:47+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/api/index.php:7
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-19T13:02:49+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/api/index.php:7
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-19T13:02:51+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/api/index.php:7
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-19T13:02:53+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/api/index.php:7
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-19T13:04:40+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/api/index.php:7
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-19T13:04:42+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/api/index.php:7
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-19T13:04:47+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/api/index.php:7
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-19T13:04:49+00:00 CRITICAL Uncaught Error: Call to undefined function qtrans_use() in /var/www/html/fruitdose/api/index.php:7
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-19T13:31:47+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::row() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1585
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): forgot_password('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown
+
+2017-12-19T13:31:48+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::row() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1585
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): forgot_password('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown
+
+2017-12-19T13:31:48+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::row() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1585
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): forgot_password('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown
+
+2017-12-19T13:31:51+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::row() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1585
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): forgot_password('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown
+
+2017-12-19T13:32:26+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::row() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:1586
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): forgot_password('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown
+
+2017-12-19T13:44:57+00:00 CRITICAL Uncaught Error: Call to undefined function eregi() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:3090
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): forgot_password('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown
+
+2017-12-20T12:05:51+00:00 CRITICAL Uncaught Error: Call to undefined function vardump() in /var/www/html/fruitdose/api/confirmOrder.php:6
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-20T12:05:54+00:00 CRITICAL Uncaught Error: Call to undefined function vardump() in /var/www/html/fruitdose/api/confirmOrder.php:6
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-20T12:05:56+00:00 CRITICAL Uncaught Error: Call to undefined function vardump() in /var/www/html/fruitdose/api/confirmOrder.php:6
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-20T12:06:00+00:00 CRITICAL Uncaught Error: Call to undefined function vardump() in /var/www/html/fruitdose/api/confirmOrder.php:6
+Stack trace:
+#0 {main}
+  thrown
+
+2017-12-20T12:48:55+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/content-widget-product.php:27
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /var/www/html/fruitdose/wp-content/themes/fruits/template-kilograms.php(37): wc_get_template('content-widget-...')
+#2 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#3 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#4 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-12-20T12:49:02+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/content-widget-product.php:27
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /var/www/html/fruitdose/wp-content/themes/fruits/template-kilograms.php(37): wc_get_template('content-widget-...')
+#2 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#3 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#4 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-12-20T12:49:08+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/content-widget-product.php:27
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /var/www/html/fruitdose/wp-content/themes/fruits/template-kilograms.php(37): wc_get_template('content-widget-...')
+#2 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#3 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#4 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#5 {main}
+  thrown
+
+2017-12-20T16:52:40+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/confirmOrder.php:36
+Stack trace:
+#0 {main}
+  thrown
+
+2018-01-03T13:06:47+00:00 CRITICAL Uncaught Error: Call to undefined function icl_object_id() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:3674
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): storage_fact('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(101): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown
+
+2018-01-03T13:37:17+00:00 CRITICAL Uncaught Error: Call to undefined function get_id() in /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/content-single-product.php:86
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(690): require()
+#1 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/var/www/html/f...', false)
+#2 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-template-functions.php(445): wc_get_template_part('content', 'single-product')
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce.php(14): woocommerce_content()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-04T09:17:50+00:00 CRITICAL Uncaught Error: Call to undefined function twentysixteen_post_thumbnail() in /var/www/html/fruitdose/wp-content/themes/fruits/template-parts/content-page.php:16
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(690): require()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', false)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(23): get_template_part('template-parts/...', 'page')
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-04T09:30:19+00:00 CRITICAL Uncaught Error: Call to undefined function twentysixteen_post_thumbnail() in /var/www/html/fruitdose/wp-content/themes/fruits/template-parts/content-page.php:16
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(690): require()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', false)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(23): get_template_part('template-parts/...', 'page')
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-04T11:10:43+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/footer.php:187
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/404.php(34): get_footer()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-09T08:30:33+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/footer.php:187
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/404.php(34): get_footer()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-09T08:30:33+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/footer.php:187
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/404.php(34): get_footer()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-11T13:28:10+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/single-product/related.php:59
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1370): wc_get_template('single-product/...', Array)
+#2 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1333): woocommerce_related_products(Array)
+#3 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): woocommerce_output_related_products('')
+#4 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/content-single-product.php(113): do_action('woocommerce_aft...')
+#7 /var/www/html/fruitdose/wp-includes/template.p
+
+2018-01-11T13:28:21+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/single-product/related.php:59
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1370): wc_get_template('single-product/...', Array)
+#2 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1333): woocommerce_related_products(Array)
+#3 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): woocommerce_output_related_products('')
+#4 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/content-single-product.php(113): do_action('woocommerce_aft...')
+#7 /var/www/html/fruitdose/wp-includes/template.p
+
+2018-01-11T13:28:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/single-product/related.php:59
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1370): wc_get_template('single-product/...', Array)
+#2 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1333): woocommerce_related_products(Array)
+#3 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): woocommerce_output_related_products('')
+#4 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/content-single-product.php(113): do_action('woocommerce_aft...')
+#7 /var/www/html/fruitdose/wp-includes/template.p
+
+2018-01-11T13:28:36+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/single-product/related.php:59
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1370): wc_get_template('single-product/...', Array)
+#2 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1333): woocommerce_related_products(Array)
+#3 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): woocommerce_output_related_products('')
+#4 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/content-single-product.php(113): do_action('woocommerce_aft...')
+#7 /var/www/html/fruitdose/wp-includes/template.p
+
+2018-01-12T10:45:46+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(112): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/template-home.php(3): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-12T10:45:49+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(112): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/template-home.php(3): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-12T10:45:51+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getAllOrders.php:15
+Stack trace:
+#0 {main}
+  thrown
+
+2018-01-12T10:46:05+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(112): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/template-home.php(3): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-12T10:46:05+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(112): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/template-home.php(3): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-12T10:46:05+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(112): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/template-home.php(3): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-12T10:46:10+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(112): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/template-home.php(3): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-12T11:03:14+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getAllOrders.php:15
+Stack trace:
+#0 {main}
+  thrown
+
+2018-01-12T14:23:14+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getAllOrders.php:15
+Stack trace:
+#0 {main}
+  thrown
+
+2018-01-12T16:21:33+00:00 CRITICAL Uncaught Error: Call to undefined function AuthUser() in /var/www/html/fruitdose/api/getAllOrders.php:15
+Stack trace:
+#0 {main}
+  thrown
+
+2018-01-13T13:05:11+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:132
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:05:20+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:132
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:05:29+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:132
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:06:43+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::get_product_count() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:06:46+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::get_product_count() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:06:51+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::get_product_count() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:07:14+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::items() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:07:16+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::items() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce.php(13): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:07:17+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::items() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/404.php(10): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:07:24+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::items() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:07:40+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::items_count() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:07:44+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::items_count() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:08:43+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::items() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:12:49+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/class-wc-cart.php:812
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(134): WC_Cart->get_item_data()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-13T13:12:55+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/class-wc-cart.php:812
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(134): WC_Cart->get_item_data()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-13T13:17:36+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_cart() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:17:40+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_cart() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:17:49+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_cart() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:18:07+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::cart() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:19:09+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:19:12+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:19:16+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:27:23+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:27:29+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:27:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents() in /var/www/html/fruitdose/wp-content/themes/fruits/header.php:134
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-13T13:44:24+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(118): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-15T07:38:11+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(118): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/template-home.php(3): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-15T07:41:17+00:00 CRITICAL Uncaught Error: Call to undefined function getProducts() in /var/www/html/fruitdose/api/getFruitList.php:25
+Stack trace:
+#0 {main}
+  thrown
+
+2018-01-15T09:48:26+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(123): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/404.php(10): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-15T09:57:21+00:00 CRITICAL Uncaught Error: Call to undefined function getProducts() in /var/www/html/fruitdose/api/getFruitList.php:25
+Stack trace:
+#0 {main}
+  thrown
+
+2018-01-16T12:39:42+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(127): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce.php(13): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-16T13:07:36+00:00 CRITICAL Uncaught Error: Call to undefined function ste_replace() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:4118
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): checkStockProcessing('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_checkSt...')
+#4 {main}
+  thrown
+
+2018-01-16T13:08:39+00:00 CRITICAL Uncaught Error: Call to undefined function ste_replace() in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:4118
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): checkStockProcessing('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_checkSt...')
+#4 {main}
+  thrown
+
+2018-01-16T13:08:49+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:4122
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): checkStockProcessing('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_checkSt...')
+#4 {main}
+  thrown
+
+2018-01-16T13:09:05+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:4122
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): checkStockProcessing('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_checkSt...')
+#4 {main}
+  thrown
+
+2018-01-16T13:10:49+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:4122
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): checkStockProcessing('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_checkSt...')
+#4 {main}
+  thrown
+
+2018-01-16T13:10:56+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:4122
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): checkStockProcessing('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_checkSt...')
+#4 {main}
+  thrown
+
+2018-01-16T13:22:17+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(127): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/template-home.php(3): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-16T13:22:18+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(127): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/template-home.php(3): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-16T15:03:57+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:4213
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): checkStockProcessing('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_checkSt...')
+#4 {main}
+  thrown
+
+2018-01-16T15:09:32+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:4213
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): checkStockProcessing('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_checkSt...')
+#4 {main}
+  thrown
+
+2018-01-16T15:10:45+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:4213
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): checkStockProcessing('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_checkSt...')
+#4 {main}
+  thrown
+
+2018-01-16T15:11:50+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /var/www/html/fruitdose/wp-content/themes/fruits/functions.php:4213
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(298): checkStockProcessing('')
+#1 /var/www/html/fruitdose/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/fruitdose/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/fruitdose/wp-admin/admin-ajax.php(91): do_action('wp_ajax_checkSt...')
+#4 {main}
+  thrown
+
+2018-01-18T08:36:00+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(127): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/page.php(14): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-19T13:39:23+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(127): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/404.php(10): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-19T15:13:28+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/searchform.php:14
+Stack trace:
+#0 /var/www/html/fruitdose/wp-content/themes/fruits/header.php(127): include()
+#1 /var/www/html/fruitdose/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#2 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#3 /var/www/html/fruitdose/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /var/www/html/fruitdose/wp-content/themes/fruits/template-about.php(3): get_header()
+#5 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#6 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#7 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#8 {main}
+  thrown
+
+2018-01-24T15:21:50+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/footer.php:34
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/404.php(114): get_footer()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-24T15:29:34+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/footer.php:34
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/404.php(114): get_footer()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-29T12:42:53+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/footer.php:34
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fruitdose/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fruitdose/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/404.php(121): get_footer()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+
+2018-01-30T13:06:41+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /var/www/html/fruitdose/api/index.php:5
+Stack trace:
+#0 {main}
+  thrown
+
+2018-01-30T13:06:44+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /var/www/html/fruitdose/api/index.php:5
+Stack trace:
+#0 {main}
+  thrown
+
+2018-01-30T13:06:49+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /var/www/html/fruitdose/api/index.php:5
+Stack trace:
+#0 {main}
+  thrown
+
+2018-01-30T13:06:50+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /var/www/html/fruitdose/api/index.php:5
+Stack trace:
+#0 {main}
+  thrown
+
+2018-02-01T13:25:47+00:00 CRITICAL Uncaught Error: Call to undefined function getTextByLang() in /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce/content-single-product.php:232
+Stack trace:
+#0 /var/www/html/fruitdose/wp-includes/template.php(690): require()
+#1 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/var/www/html/f...', false)
+#2 /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/wc-template-functions.php(445): wc_get_template_part('content', 'single-product')
+#3 /var/www/html/fruitdose/wp-content/themes/fruits/woocommerce.php(14): woocommerce_content()
+#4 /var/www/html/fruitdose/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fruitdose/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fruitdose/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown
+

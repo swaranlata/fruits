@@ -1,0 +1,142 @@
+<?php
+include('../../../wp-config.php');
+$custom_logo_id = get_theme_mod( 'custom_logo' );
+$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+?>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+    <html>
+
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+        <title>Fruitdose Email</title>
+    </head>
+
+    <body style="padding: 0;margin: 0;">
+
+
+        <table width="600" align="center" cellpadding="0" cellspacing="0" style="font-family: arial; border: 1px solid #ccc;">
+            <tr>
+                <td style="text-align: center; padding: 10px 0;">
+                    <a href="index.html"><img src="<?php echo @$image[0]; ?>" alt="fruitdose"></a>
+                </td>
+            </tr>
+
+            <tr>
+                <td height="5">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:0 20px 10px;">
+                        <tr>
+                            <td>
+                                <h1 style="font-size:20px; margin: 0;">Hello</h1>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td height="10">&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p style="margin: 0; font-size: 15px; color: #000; line-height: 28px;">There is a customer that recently sent a contact on product Product test If you have any questions about your Quote please contact us at baljit@imarkinfotech.com or call us at Monday - Friday, 8am - 5pm PST.</p>
+                                <br>
+
+                                <p style="margin: 0; font-size: 15px; color: #000; line-height: 28px;">Your Quote confirmation is below. Thank you again for your business.</p>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td height="5">&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <h3 style="font-size:15px; color: #000; font-weight:normal;"><strong>Your Order #18 </strong> (placed on</h3>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border: 1px solid #3bb93e;">
+                                    <tr>
+                                        <td style="background-color: #3bb93e; padding:10px "><strong style="font-size:14px; color: #fff; font-weight:normal;">Customer's Information</strong></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                <tr>
+                                                    <td style=" width:50%; text-align: right; padding: 5px; border-bottom: 1px solid #3bb93e; border-right: 1px solid #3bb93e;"><strong style="font-size: 14px; color: #000; ">Product Name :</strong></td>
+                                                    <td style="width:50%; text-align: left;  padding: 5px; border-bottom: 1px solid #3bb93e;  font-size: 14px; color: #000; font-weight: normal;">Product test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width:50%; text-align: right; padding: 5px; border-bottom: 1px solid #3bb93e; border-right: 1px solid #3bb93e;"><strong style="font-size: 14px; color: #000;">Name :</strong></td>
+                                                    <td style="width:50%; text-align: left; padding: 5px; border-bottom: 1px solid #3bb93e;  font-size: 14px; color: #000; font-weight: normal;">Product test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width:50%; text-align: right; padding: 5px; border-bottom: 1px solid #3bb93e; border-right: 1px solid #3bb93e;"><strong style="font-size: 14px; color: #000;">Company :</strong></td>
+                                                    <td style="width:50%; text-align: left; padding: 5px; border-bottom: 1px solid #3bb93e;  font-size: 14px; color: #000; font-weight: normal;">Product test</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td style="width:50%; text-align: right; padding: 5px; border-bottom: 1px solid #3bb93e; border-right: 1px solid #3bb93e;"><strong style="font-size: 14px; color: #000;">Address :</strong></td>
+                                                    <td style="width:50%; text-align: left; padding: 5px; border-bottom: 1px solid #3bb93e;  font-size: 14px; color: #000; font-weight: normal;">Product test</td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td style="width:50%; text-align: right; padding: 5px; border-bottom: 1px solid #3bb93e; border-right: 1px solid #3bb93e;"><strong style="font-size: 14px; color: #000;">City :</strong></td>
+                                                    <td style="width:50%; text-align: left; padding: 5px; border-bottom: 1px solid #000;  font-size: 14px; color: #000; font-weight: normal;">Product test</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td style="width:50%; text-align: right; padding: 5px; border-bottom: 1px solid #3bb93e; border-right: 1px solid #3bb93e;"><strong style="font-size: 14px; color: #000;">Zipcode :</strong></td>
+                                                    <td style="width:50%; text-align: left; padding: 5px; border-bottom: 1px solid #3bb93e;  font-size: 14px; color: #000; font-weight: normal;">Product test</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td style="width:50%; text-align: right; padding: 5px; border-bottom: 1px solid #3bb93e; border-right: 1px solid #3bb93e;"><strong style="font-size: 14px; color: #000;">Country :</strong></td>
+                                                    <td style="width:50%; text-align: left; padding: 5px; border-bottom: 1px solid #3bb93e;  font-size: 14px; color: #000; font-weight: normal;">Product test</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td style="width:50%; text-align: right; padding: 5px; border-bottom: 1px solid #3bb93e; border-right: 1px solid #3bb93e;"><strong style="font-size: 14px; color: #000;">Email :</strong></td>
+                                                    <td style="width:50%; text-align: left; padding: 5px; border-bottom: 1px solid #3bb93e;  font-size: 14px; color: #000; font-weight: normal;">Product test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width:50%; text-align: right; padding: 5px; border-bottom: 1px solid #3bb93e; border-right: 1px solid #3bb93e;"><strong style="font-size: 14px; color: #000;">Phone Number :</strong></td>
+                                                    <td style="width:50%; text-align: left; padding: 5px; border-bottom: 1px solid #3bb93e;  font-size: 14px; color: #000; font-weight: normal;">Product test</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td style="width:50%; text-align: right; padding: 5px; border-right: 1px solid #3bb93e;"><strong style="font-size: 14px; color: #000; ">Message  :</strong></td>
+                                                    <td style="width:50%; text-align: left; padding: 5px;   font-size: 14px; color: #000; font-weight: normal;">Product test</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #3bb93e; padding:10px ; text-align: center;">
+                    <p style="margin: 0; font-size: 15px;color: #fff;font-weight: normal;text-align: center;">Thank you again,<strong>FruitDose</strong></p>
+                </td>
+            </tr>
+
+        </table>
+
+
+
+
+    </body>
+
+    </html>

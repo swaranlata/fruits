@@ -1,0 +1,4 @@
+2018-01-29T14:40:44+00:00 ERROR DOMXPath::query(): Invalid expression in selector >>  << in /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/libraries/class-emogrifier.php on line 373
+2018-01-29T14:40:46+00:00 ERROR DOMXPath::query(): Invalid expression in selector >>  << in /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/libraries/class-emogrifier.php on line 373
+2018-01-29T14:42:09+00:00 ERROR DOMXPath::query(): Invalid expression in selector >>  << in /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/libraries/class-emogrifier.php on line 373
+2018-01-29T14:42:11+00:00 ERROR DOMXPath::query(): Invalid expression in selector >>  << in /var/www/html/fruitdose/wp-content/plugins/woocommerce/includes/libraries/class-emogrifier.php on line 373
