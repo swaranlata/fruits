@@ -70,7 +70,13 @@ if ( $related_products ) : ?>
                             <?php echo get_the_title($related_product->get_id()); ?>
                         </a>
                     </h3>
-                    <span>1 <?php echo getTextByLang('Kg',$crntLanguage); ?></span>
+                    <span>1 <?php $productType=getProCat($related_product->get_id());
+                                                         if($productType==16){
+                                                              echo getTextByLang('Quantity',$crntLanguage);
+                                                         }else{
+                                                             echo getTextByLang('Kg',$crntLanguage);
+                                                         }  ?>
+                    </span>
                 </div>
                 <div class="sec-content">
                     <div class="ammount-sec pull-left">

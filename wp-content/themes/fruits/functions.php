@@ -4374,7 +4374,8 @@ function new_shiping_order_fields($fields) {
         if(!empty($arr)){
            foreach($arr as $k=>$v){
                $stockAvailability=get_post_meta($k,'_stock',true);
-               if($stockAvailability<$v){
+               $stockAvailabilityStatus=get_post_meta($k,'_stock_status',true);
+               if($stockAvailability<$v || $stockAvailabilityStatus=='outofstock'){
                   $temp=1; 
                }
            }
@@ -4402,6 +4403,7 @@ function new_shiping_order_fields($fields) {
             array_pop($variables['breadcrumb']);
   
     }
+
     add_filter('avia_breadcrumbs_trail', 'avia_breadcrumbs_args_mod', 10, 2);
     function avia_breadcrumbs_args_mod($trail, $args){
         

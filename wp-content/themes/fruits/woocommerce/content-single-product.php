@@ -229,7 +229,16 @@ $crntLanguage=qtranxf_getLanguage();
                                             <form class="cart" method="post" enctype="multipart/form-data">
                                                 <div class="quantity">
                                                     <label for="quantity_5a5849f6e127c" class="screen-reader-text">
-                                                          <?php echo getTextByLang('Kg',$crntLanguage); ?>:
+                                                        
+                                                        
+                                                        
+                                                          <?php 
+                                                         $productType=getProCat(get_the_ID());
+                                                         if($productType==16){
+                                                              echo getTextByLang('Quantity',$crntLanguage);
+                                                         }else{
+                                                             echo getTextByLang('Kg',$crntLanguage);
+                                                         }  ?>:
                                                         </label>
                                                     <input type="number" title="Qty" value="1" name="quantity" min="1" class="input-text qty text" id="quantity_5a5849f6e127c">
                                                 </div>
