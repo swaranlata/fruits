@@ -28,6 +28,25 @@ jQuery(function ($) {
             $(".responsive-header").removeClass("fixed-header");
         }
     });
+     // Notification
+
+    /*jQuery(window).on("load", function () {
+        
+    });*/
+
+    
+    
+    // Custom Scrollbar
+    
+    $(window).on("load", function () {
+        jQuery(".notificationModule").next().mCustomScrollbar({
+            scrollButtons: {
+                enable: true
+            },
+            theme: "light-3"
+        });
+        $(".notificationContent").mCustomScrollbar();
+    });
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
 
@@ -87,6 +106,25 @@ jQuery(function ($) {
             $('.woocommerce-Price-currencySymbol').html('د.ك ');
         }
     }, 500);
+    var loginStatus=$('body').hasClass('logged-in');
+    if(loginStatus=='true'){
+          setInterval(function(){
+            $.ajax({
+            data: {action:'getWebNotification'},
+            url: SITE_URL + '/wp-admin/admin-ajax.php',
+            type: 'POST',
+            dataType: 'json',
+            success: function (response) {
+                $('.loading_image').hide();
+                if(response.status=='true'){
+                   $('.noti-count').html('<small>'+response.count+'</small>'); 
+                   $('.notificationContent').html(response.data);
+                }
+            }
+       });         
+          },2000);
+    }
+  
     var billing_alt = $('#billing_alt').val();
     if (billing_alt == '0') {
         $('#billing_alt').val('');

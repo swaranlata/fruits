@@ -116,6 +116,7 @@ define(CURRENCY_VAL,$CURRENCY_VAL);
                                                             );
                                                             wp_nav_menu($params);
                                                         ?>
+                                                        
 
                                                         <!-- main-menu -->
                                                     </div>

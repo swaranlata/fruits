@@ -326,6 +326,7 @@ function twentysixteen_scripts() {
     wp_enqueue_style( 'toastr-file', get_template_directory_uri() . '/css/toastr.min.css', array(), '1.0.0', 'all');
     wp_enqueue_style( 'bootstrap-file', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '1.0.0', 'all');
     wp_enqueue_style( 'jq-file', get_template_directory_uri() . '/admin-templates/css/jquery-ui.css', array(), '1.0.0', 'all');
+    wp_enqueue_style( 'scroll_bar_css', get_template_directory_uri() . '/admin-templates/css/jquery.mCustomScrollbar.css', array(), '1.0.0', 'all');
     wp_enqueue_style( 'style-file', get_template_directory_uri() . '/css/style.css', array(), '1.0.0', 'all');
     
      wp_enqueue_script('min-js',get_template_directory_uri() . '/js/jquery-3.2.1.min.js',array(),array(),true);
@@ -336,6 +337,7 @@ function twentysixteen_scripts() {
      wp_enqueue_script('slimmenu-js',get_template_directory_uri() . '/js/jquery.slimmenu.min.js',array(),array(),true);
      wp_enqueue_script('tosatr-js',get_template_directory_uri() . '/js/toastr.min.js',array(),array(),true);
      wp_enqueue_script('bootstrap-js',get_template_directory_uri() . '/js/bootstrap.min.js',array(),array(),true);
+         wp_enqueue_script('customscrool-js',get_template_directory_uri() . '/admin-templates/js/jquery.mCustomScrollbar.concat.min.js',array(),array(),true);
      wp_enqueue_script('custom-js',get_template_directory_uri() . '/js/custom.js',array(),array(),true);
      wp_enqueue_script('jq-js',get_template_directory_uri() . '/admin-templates/js/jquery-ui.js',array(),array(),true);
 }
@@ -770,20 +772,20 @@ add_filter( 'wp_get_attachment_image_attributes', 'twentysixteen_post_thumbnail_
                if(!isset($v['label'])){
                    $v['label']='';
                 }
-               $finalArray[$k]['addressTitle']=$v['label'];
-               $finalArray[$k]['area']=$v['shipping_company'];
-               $finalArray[$k]['addressType']=$v['shipping_address_type'];
-               $finalArray[$k]['block']=$v['shipping_address_1'];
-               $finalArray[$k]['street']=$v['shipping_city'];
-               $finalArray[$k]['avenue']=$v['shipping_avenue'];
-               $finalArray[$k]['building']=$v['shipping_building'];
-               $finalArray[$k]['floor']=$v['shipping_floor'];
-               $finalArray[$k]['apartmentNumber']=$v['shipping_apartment_number'];
-               $finalArray[$k]['additionalDirections']=$v['shipping_additional_directions'];
-               $finalArray[$k]['office']=$v['shipping_office'];
-               $finalArray[$k]['house']=$v['shipping_house'];
-               $finalArray[$k]['phoneNumber']=$v['shipping_phone'];
-               $finalArray[$k]['postalCode']=$v['shipping_postcode'];
+               $finalArray[$k]['addressTitle']=(string) $v['label'];
+               $finalArray[$k]['area']=(string) $v['shipping_company'];
+               $finalArray[$k]['addressType']=(string) $v['shipping_address_type'];
+               $finalArray[$k]['block']=(string) $v['shipping_address_1'];
+               $finalArray[$k]['street']=(string) $v['shipping_city'];
+               $finalArray[$k]['avenue']=(string) $v['shipping_avenue'];
+               $finalArray[$k]['building']=(string) $v['shipping_building'];
+               $finalArray[$k]['floor']=(string) $v['shipping_floor'];
+               $finalArray[$k]['apartmentNumber']=(string) $v['shipping_apartment_number'];
+               $finalArray[$k]['additionalDirections']=(string) $v['shipping_additional_directions'];
+               $finalArray[$k]['office']=(string) $v['shipping_office'];
+               $finalArray[$k]['house']=(string) $v['shipping_house'];
+               $finalArray[$k]['phoneNumber']=(string) $v['shipping_phone'];
+               $finalArray[$k]['postalCode']=(string) $v['shipping_postcode'];
            } 
         }
         rsort($finalArray);
@@ -4345,6 +4347,51 @@ function new_shiping_order_fields($fields) {
     function add_custom_order_status_actions_button_css() {
         echo '<style>.view.parcial::after { font-family: woocommerce; content: "\e005" !important; }</style>';
     }
+    
+    function getWebNotificationCount(){
+        global $wpdb;
+        $rows=$wpdb->get_results('select * from `im_notifications` where `opponentId`="'.get_current_user_id().'"',ARRAY_A);
+        return count($rows); 
+    }
+    function getWebNotificationContent(){
+        global $wpdb;
+        $rows=$wpdb->get_results('select * from `im_notifications` where `opponentId`="'.get_current_user_id().'"',ARRAY_A);
+        $notifications='';
+        if(!empty($rows)){
+           foreach($rows as $k=>$v){
+                    $notifications .=' <div class="notificationWrapper"><a href="javascript:void(0)" class="dropdown-item  markAsReadNotify "><span>'.getUserName($v['userId']).'</span><p>'.$v['title'].'</p></a></div>';  
+            }
+        }
+        return $notifications;
+    }
+
+
+    add_action('wp_ajax_getWebNotification', 'getWebNotification');
+    add_action('wp_ajax_getWebNotification', 'getWebNotification');
+    function getWebNotification(){
+        session_start();   
+        global $wpdb;
+        $rows=$wpdb->get_results('select * from `im_notifications` where `opponentId`="'.get_current_user_id().'"',ARRAY_A);
+        $notifications='';
+        if(!empty($rows)){
+            if($_SESSION['notificationWebCount']<count($rows)){
+               $_SESSION['notificationWebCount']=count($rows);
+                foreach($rows as $k=>$v){
+                    $notifications .=' <div class="notificationWrapper"><a href="javascript:void(0)" class="dropdown-item  markAsReadNotify "><span>'.getUserName($v['userId']).'</span><p>'.$v['title'].'</p></a></div>';  
+                }
+                echo json_encode(array('data'=>$notifications,'count'=>count($rows),'status'=>'true'));
+                die;  
+            }else{
+                 echo json_encode(array('status'=>'false'));
+                die; 
+            }
+            
+        }else{
+            echo json_encode(array('status'=>'false'));
+            die;
+        }
+        
+    }
 
     add_action('wp_ajax_checkStockProcessing', 'checkStockProcessing');
     add_action('wp_ajax_nopriv_checkStockProcessing', 'checkStockProcessing');  
@@ -4442,7 +4489,7 @@ function new_shiping_order_fields($fields) {
     function mysite_cancelled($order_id) {
        $orderDetails = wc_get_order($order_id);
        $userId=get_current_user_id();
-       $title='Order status has been changed to Completed status.';
+       $title='Order status has been changed to cancelled status.';
        insert_notification($userId,$order_id,$orderDetails->customer_id,$title); 
     }
 
@@ -4451,6 +4498,7 @@ function new_shiping_order_fields($fields) {
     add_action( 'woocommerce_order_status_completed', 'mysite_completed');
     add_action( 'woocommerce_order_status_refunded', 'mysite_refunded');
     add_action( 'woocommerce_order_status_cancelled', 'mysite_cancelled');
+    add_action( 'woocommerce_order_status_bad-order', 'mysite_bad_order');
     
     add_filter('woocommerce_admin_order_actions','wdm_verify_product_limitation',5,2);
     function wdm_verify_product_limitation( $actions, $the_order ){
@@ -4466,7 +4514,6 @@ function new_shiping_order_fields($fields) {
         }
         return $actions;
     }
-
      
     /* end frontend funciton */
 
@@ -4474,6 +4521,16 @@ function new_shiping_order_fields($fields) {
     function my_function($user_id){
         update_user_meta($user_id,'admin_color','midnight');
       
+    }
+    
+    function mysite_bad_order($order_id){
+       wc_reduce_stock_levels($order_id);
+    }
+
+    add_filter( 'woocommerce_reports_order_statuses', 'my_custom_order_status_for_reports', 10, 1 );
+    function my_custom_order_status_for_reports($order_statuses) {
+        $order_statuses =array_merge($order_statuses,array('bad-order'));
+        return $order_statuses;
     }
 
    /* function sort_dashboard_widgets() {
@@ -4487,3 +4544,22 @@ function new_shiping_order_fields($fields) {
 
     }
     add_action('wp_dashboard_setup', 'sort_dashboard_widgets');*/
+add_filter( 'wp_nav_menu_items', 'add_nav_menu_items', 10, 2 );
+function add_nav_menu_items( $items, $args ) {
+     ob_start(); // start the output buffer
+     ?>
+       <li class="noti-icon-wrapper">
+            <a aria-expanded="true" aria-haspopup="true" data-toggle="dropdown" href="#" class="notificationModule nav-link dropdown-toggle mr-lg-2">
+                <i class="noti-icon"></i>                
+                <span class="noti-counts noti-count"><small><?php echo getWebNotificationCount(); ?></small></span>
+            </a>
+            <div class="dropdown-menu" style="">
+                <div class="notificationContent">
+                    <?php echo getWebNotificationContent(); ?>
+                </div>
+            </div>
+        </li>
+    <?php
+    $products = ob_get_clean(); // store all output from above
+    return $items . $products; // add stored output to end of $items and return
+}
